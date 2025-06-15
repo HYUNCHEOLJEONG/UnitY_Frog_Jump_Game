@@ -1,8 +1,5 @@
 # 🐸 Frog Adventure
 
-![Scene1](Images/Scene1.png)
-![Scene2](Images/Scene2.png)
-![Scene3](Images/Scene3.png)
 
 ## 🎮 Overview
 
@@ -17,6 +14,12 @@
 
 - **총 3개의 Scene (Stage 1, 2, 3)**  
   각 스테이지는 Checkpoint 시스템으로 설계되어, 도달 시 다음 구간으로 자연스럽게 이어집니다.
+![Scene1](Images/Scene1.png)
+
+![Scene2](Images/Scene2.png)
+
+![Scene3](Images/Scene3.png)
+
 
 - **카메라 시스템**  
   캐릭터의 이동 방향을 따라가는 부드러운 카메라 트래킹으로 몰입감 극대화.
