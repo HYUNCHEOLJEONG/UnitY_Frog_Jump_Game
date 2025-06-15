@@ -16,12 +16,19 @@
   각 스테이지는 Checkpoint 시스템으로 설계되어, 도달 시 다음 구간으로 자연스럽게 이어집니다.
 
 - ***1단계***
+
+- 
 ![Scene1](Images/Scene1.png)
 
+
 - ***2단계***
+
+- 
 ![Scene2](Images/Scene2.png)
 
 - ***3단계***
+
+- 
 ![Scene3](Images/Scene3.png)
 
 
