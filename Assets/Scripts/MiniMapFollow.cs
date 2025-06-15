@@ -22,11 +22,12 @@ public class MiniMapFollow : MonoBehaviour
 
         if (deltaX < 0f)
         {
-            // 현재 위치가 기준보다 왼쪽이면, 오른쪽으로 오프셋 보정(2배 적용)
+            // 현재 위치가 기준보다 왼쪽이면, 오른쪽으로 오프셋 보정 (2배 적용)
+            float adjust = Mathf.Lerp(0f, 10f, -deltaX / 10f);
             dynamicOffset.x = adjust;
         }
 
-        // 위로 올라갈수록 Y,X 보정(2배 적용 유지)
+        // 위로 올라갈수록 Y, Z 보정 (2배 적용 유지)
         if (player.position.y > 5f)
         {
             dynamicOffset.y = Mathf.Lerp(20f, 40f, (player.position.y - 5f) / 20f);

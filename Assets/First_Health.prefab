@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3402555330114495267}
   - component: {fileID: 7293786719733065558}
   - component: {fileID: 5513511431601508583}
+  - component: {fileID: 5283489885873420389}
   m_Layer: 5
   m_Name: First_Health
   m_TagString: Health
@@ -75,3 +76,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5283489885873420389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796937108386495948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b72866bad772d543876d5ed40494647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  JumpPower: 8
+  Hit_Prefab: {fileID: 8828925133562038069, guid: 015aba913e00b6a4e86b8a4c7b9ab5a2, type: 3}
+  firstHealth: {fileID: 796937108386495948}
+  secondHealth: {fileID: 0}
