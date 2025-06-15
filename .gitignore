@@ -1,0 +1,26 @@
+# 유니티 불필요 폴더
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+UserSettings/
+sysinfo.txt
+
+# Visual Studio / VS Code
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.code-workspace
+.vs/
+
+# 유니티 애셋스토어
+Assets/AssetStoreTools*
+
+# Crash/로그 등
+*.log
+*.pidb
+*.booproj
+.crash/
